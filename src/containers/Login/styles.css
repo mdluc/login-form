@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Jura:400");
+* {
+  font-family: Jura, Arial;
+}
+
+body {
+  background: rgb(164, 165, 208);
+}
+
+Input,
+Button {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  background: #fff;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+  font-size: 15px;
+  width: 250px;
+  outline: none;
+}
+
+Input:focus {
+  border: 1px solid rgb(164, 203, 208);
+}
+
+Input[type="email"],
+Input[type="password"] {
+  padding: 12px 20px;
+}
+.container {
+  display: grid;
+  place-items: center;
+  margin-top: 50px;
+}
+
+.login-box {
+  background: rgba(190, 182, 182, 0.562);
+  width: 300px;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 32px 64px rgb(0 0 0 / 20%);
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: rgb(164, 165, 208);
+  color: white;
+}
